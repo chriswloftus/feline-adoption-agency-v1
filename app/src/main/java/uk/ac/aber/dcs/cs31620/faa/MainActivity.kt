@@ -11,7 +11,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import uk.ac.aber.dcs.cs31620.faa.ui.home.HomeScreen
 import uk.ac.aber.dcs.cs31620.faa.ui.theme.FAATheme
-
+/**
+ * Starting activity class. Entry point for the app.
+ * @author Chris Loftus
+ */
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
